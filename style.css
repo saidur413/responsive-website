@@ -8,6 +8,9 @@
 body {
     font-family: Montserrat;
 }
+
+/* Navigation Code Start */
+
 nav {
     background: #1c2833;
     padding: 0 50px 0 80px;
@@ -86,4 +89,14 @@ nav ul li a:hover, nav  ul li a.active {
         background: none;
         color: red;
     }
+}
+
+/* Header Section Code Start */
+
+header {
+    height: 90vh;
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
