@@ -69,6 +69,12 @@ nav ul li a:hover, nav  ul li a.active {
     #click:checked ~ .menu-btn i::before {
         content: '\f00d';
     }
+    nav {
+        padding: 0 10px;
+    }
+    .manu-btn i {
+        font-size: 5px;
+    }
     nav ul {
         position: fixed;
         top: 80px;
@@ -108,7 +114,7 @@ header {
 
 #first-section {
     background-color:  #16213E;
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
 }
 .service-title {
     color: white;
@@ -139,25 +145,93 @@ header {
     margin: 10px 0;
     font-weight: bold;
 }
-.single-service p {
-    font-weight: 600;
+
+
+/* Second Section Code Start  */
+#second-section {
+    background-color: #154360;
+    padding: 50px 0;
+}
+.smart-title {
+    color: yellow;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: .2em;
+}
+#smart-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.smart-text h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.smart-text a {
+    text-decoration: none;
+    background-color: bisque;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: black;
+    display: inline-block;
+    margin-top: 40px ;
 }
 
-/* responsive code  */
 
+
+
+
+
+/* Responsive Code  */
+
+/* For Mobile Device  */
 @media only screen and (max-width: 688px) {
-    #service-parent {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
-        width: 100%;
-    }
+   /* Service Section Code Start  */
+   #service-parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    width: 100%;
 }
+   /* Service Section Code End   */
+
+   /* Smart Section Code Start  */
+    #smart-parent {
+        display: block;
+        margin: 0 30px;
+    }
+    .smart-img img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+   /* Smart Section Code End  */
+
+}
+
+
+
+/* For Tab Device  */
 @media only screen and (min-width: 689px) and (max-width: 1099px) {
+    /* Service Section Code Start  */
     #service-parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
         width: 100%;
     }
+    /* Service Section Code End  */
+
+    /* Smart Section Code Start  */
+    #smart-parent {
+        display: block;
+        margin: 0 70px;
+    }
+    .smart-img img {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+   /* Smart Section Code End  */
 }
