@@ -235,6 +235,57 @@ header {
     margin-top: 20px;
 }
 
+/* Fouth Secton Code Start  */
+.fourth-section {
+    padding: 100px 0;
+    background: #154360;
+    color: white;
+}
+.advice-parent {
+    display: flex;
+    gap: 50px;
+    margin: 0 200px;
+}
+.advice-img img {
+    width: 100%;
+}
+.single-advice h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.single-advice h4 {
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+.single-advice p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+.single-advice a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.advice-icon {
+    text-align: center;
+}
+.advice-icon a {
+    margin: 0 5px;
+    border: 1px solid black;
+}
+.single-advice a:hover {
+    background-color: wheat;
+}
+
+
 
 
 
@@ -275,8 +326,21 @@ header {
     grid-gap: 15px;
     margin-top: 50px;
    }
-
    /* About Section Code End  */
+
+   /* Fourth/Advice Section Start */
+   .advice-parent {
+    display: block;
+    margin: 0 30px;
+   }
+   .advice-icon {
+    text-align: left;
+    margin-bottom: 50px;
+   }
+   .advice-icon a {
+    margin: 10px 5px;
+   }
+   /* Fourth/Advice Section End */
 
 
 }
@@ -317,5 +381,14 @@ header {
         margin-top: 50px;
        }
        /* About Section Code End  */
+
+       /* Fourth/Advice Section Start */
+       .advice-parent {
+        margin: 0 70px;
+    }
+    .advice-icon a {
+        margin: 10px 5px;
+    }
+       /* Fourth/Advice Section End */
 
 }
