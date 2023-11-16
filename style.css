@@ -286,6 +286,66 @@ header {
 }
 
 
+/* Fifth/Form Code Start  */
+.fifth-section {
+    padding: 100px 0;
+    background-image: linear-gradient(#3958a25e, #4089C7), url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+form {
+    background-color: #2e357a;
+    color: white;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 6px solid #4497D3;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+form h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+form p {
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+}
+.form-input {
+    color: white;
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: 50px 0;
+    font-size: 18px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #4497D3;
+}
+.form-input::placeholder {
+    color: #4497D3;
+    font-weight: bold;
+}
+.form-submit-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px 40px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.form-submit-btn:hover {
+    background-color: #16213E;
+}
+
+
+
 
 
 
@@ -343,7 +403,17 @@ header {
    /* Fourth/Advice Section End */
 
 
+   /* Fifth/Form Code Start */
+   form {
+    max-width: 90%;
+    padding: 20px 30px;
+   } 
+   /* Fifth/Form Code End */
+
+
 }
+
+
 
 
 
@@ -380,15 +450,22 @@ header {
         grid-gap: 20px;
         margin-top: 50px;
        }
-       /* About Section Code End  */
+    /* About Section Code End  */
 
-       /* Fourth/Advice Section Start */
+    /* Fourth/Advice Section Start */
        .advice-parent {
         margin: 0 70px;
     }
     .advice-icon a {
         margin: 10px 5px;
     }
-       /* Fourth/Advice Section End */
+    /* Fourth/Advice Section End */
+
+    /* Fifth/Form Code Start */
+   form {
+    max-width: 80%;
+    padding: 40px 50px;
+   } 
+   /* Fifth/Form Code End */
 
 }
