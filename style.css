@@ -406,6 +406,48 @@ form p {
     width: 100%;
 }
 
+/* Footer Code Start */
+footer {
+    background-color: #154360;
+    padding: 100px 0 50px 0;
+}
+.footer-parent {
+    color: white;
+    display: flex;
+    gap: 80px;
+    margin: 0 200px;
+}
+.single-footer {
+    width: 100%;
+}
+.single-footer h5 {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.single-footer h5 span {
+    color: yellow;
+}
+.single-footer-2 p {
+    margin: 15px;
+}
+.single-footer-2 a {
+    text-decoration: none;
+    color: white;
+}
+.single-footer-3 ul {
+    display: flex;
+}
+.single-footer-3 li {
+    list-style-type: none;
+}
+.single-footer-3 ul li a {
+    text-decoration: none;
+    margin: 0 5px;
+    background-color:  #0a273863;
+    padding: 8px;
+    color: white;
+}
+
 
 
 
@@ -494,6 +536,20 @@ form p {
    }
    /* Seventh/Care Section End */
 
+   /* Footer Code Start */
+   .footer-parent {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+   }
+   .single-footer {
+    text-align: center;
+   }
+   .single-footer-3 ul {
+    display: flex;
+    justify-content: center;
+   }
+   /* Footer Code End */
 
 }
 
@@ -573,5 +629,11 @@ form p {
     margin-bottom: 80px;
    }
    /* Seventh/Care Section End */
+
+   /* Footer Code Start */
+   .footer-parent {
+    margin: 0 70px;
+   }
+   /* Footer Code End */
 
 }
