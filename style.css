@@ -377,7 +377,34 @@ form p {
     font-size: 14px;
 
 }
-/* Sixth/Match Section End */
+
+/* Seventh/Care Section Start */
+.seventh-section {
+    padding: 100px 0;
+}
+.care-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0 200px;
+}
+.single-care-text h3{
+    font-size: 30px;
+}
+.single-care-text p {
+    margin: 20px 0;
+}
+.single-care-text ul li {
+    margin: 10px 0;
+    list-style-position: inside;
+}
+.single-care-img {
+    width: 100%;
+}
+.single-care-img img{
+    width: 100%;
+}
 
 
 
@@ -452,7 +479,20 @@ form p {
    .single-match-item {
     margin: 25px 0;
    }
+   .single-unmatch-item {
+    text-align: center;
+   }
    /* Sixth/Match Section End */
+
+   /* Seventh/Care Section Start */
+   .care-parent {
+    display: block;;
+    margin: 0 30px;
+   }
+   .single-care-text {
+    margin-bottom: 70px;
+   }
+   /* Seventh/Care Section End */
 
 
 }
@@ -523,5 +563,15 @@ form p {
     margin: 25px 0;
    }
    /* Sixth/Match Section End */
+
+   /* Seventh/Care Section Start */
+   .care-parent {
+    display: block;;
+    margin: 0 70px;
+   }
+   .single-care-text {
+    margin-bottom: 80px;
+   }
+   /* Seventh/Care Section End */
 
 }
